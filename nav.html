@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+</head>
+  <style>
+    *{
+        margin: 0;
+        text-decoration: none;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: tomato;
+        padding: 1em 0;
+    }
+
+    h1{
+        font-size: 2em;
+        color: azure;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .icons{
+        display: flex;
+        gap: 1.5em;
+        font-weight: bolder;
+    }
+
+    button{
+        padding: .6em 1.5em;
+        border: none;
+        border-radius: .5em;
+        background: yellow;
+        font-weight: bolder;
+        color: black;
+        margin: 2em;
+    }
+
+    section{
+        width: 100%;
+        height: 90vh;
+        background: black;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 0;
+        align-items: center;
+
+    }
+
+    h2{
+        color: white;
+        font-size: 4em;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    mark{
+        background: yellow;
+        border-radius: .2em;
+
+    }
+
+    
+  </style>
+
+  
+<body>
+   
+    <nav>
+
+        <div>
+             <h1>Apple Phone</h1>
+        </div>
+
+        <div class="icons">
+             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="gold" class="bi bi-house-fill" viewBox="0 0 16 16">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="gold" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>  
+
+        </div>
+            
+        <div>
+           <button>Explore</button>
+        </div>
+
+    </nav>
+
+    <section>
+        <div>
+            <h2>Get access to latest <mark>phone</mark> </h2>
+        </div>
+
+        <div>
+            <button><a href="contact.html">Contact us</a></button>
+            <button><a href="sign up.html">Sign up</a></button>
+        </div>
+
+        <div>
+            <img src="https://img.freepik.com/premium-photo/variety-lenses-your-phone-allegorical-illustration-variety-popularity-mobile-photography-technology_407240-1391.jpg?w=740" alt="" srcset="">
+       
+        </div>
+
+       
+    </section>
+ 
+     
+   
+</body>
+</html>
